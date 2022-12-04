@@ -39,7 +39,7 @@ require('./app/routes/admin.routes')(app)
 require('./app/routes/daftarAgenda.routes')(app)
 require('./app/routes/berita.routes')(app)
 
-const PORT = 3000
+const PORT = 8000
 app.listen(PORT, ()=>{
     console.log(`server is running on http://localhost:${PORT}`)
 })

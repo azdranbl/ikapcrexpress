@@ -40,7 +40,6 @@ require('./app/routes/daftarAgenda.routes')(app)
 require('./app/routes/berita.routes')(app)
 
 const PORT = 8000
-app.listen(PORT, "10.126.58.234", ()=>{
-    console.log("test");
+app.listen(PORT, ()=>{
     console.log(`server is running on http://localhost:${PORT}`)
 })
